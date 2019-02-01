@@ -14,6 +14,7 @@
 		F6C73DD6217FFFE200C816AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C73DD4217FFFE200C816AD /* LaunchScreen.storyboard */; };
 		F6C73DE1217FFFE200C816AD /* LocationFakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C73DE0217FFFE200C816AD /* LocationFakerTests.swift */; };
 		F6C73DEC217FFFE200C816AD /* LocationFakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C73DEB217FFFE200C816AD /* LocationFakerUITests.swift */; };
+		F6C73DFA218000AA00C816AD /* busstop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F6C73DF9218000A900C816AD /* busstop.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F6C73DE7217FFFE200C816AD /* LocationFakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationFakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C73DEB217FFFE200C816AD /* LocationFakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFakerUITests.swift; sourceTree = "<group>"; };
 		F6C73DED217FFFE200C816AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C73DF9218000A900C816AD /* busstop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = busstop.gpx; path = ../../busstop.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F6C73DCB217FFFE000C816AD /* AppDelegate.swift */,
+				F6C73DF9218000A900C816AD /* busstop.gpx */,
 				F6C73DCD217FFFE000C816AD /* ViewController.swift */,
 				F6C73DCF217FFFE000C816AD /* Main.storyboard */,
 				F6C73DD2217FFFE200C816AD /* Assets.xcassets */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C73DFA218000AA00C816AD /* busstop.gpx in Resources */,
 				F6C73DD6217FFFE200C816AD /* LaunchScreen.storyboard in Resources */,
 				F6C73DD3217FFFE200C816AD /* Assets.xcassets in Resources */,
 				F6C73DD1217FFFE000C816AD /* Main.storyboard in Resources */,
